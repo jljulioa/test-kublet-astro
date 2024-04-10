@@ -54,7 +54,7 @@ const apiUrl = import.meta.env.API_URL
 
 
 	const handleClick = async () => {
-		const response = await fetch('http://express-backend-service:3030/api/auth/');
+		const response = await fetch('http://express-backend-service.default.svc.cluster.local/api/auth');
 		const data = await response.json();
 		console.log(data);
 	};
