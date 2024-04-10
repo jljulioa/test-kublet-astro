@@ -1,12 +1,12 @@
 # build output
 dist/
-.github/
 
 # generated types
 .astro/
 
 # dependencies
 node_modules/
+kube-manifests/
 
 # logs
 npm-debug.log*
